@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'pry'
+
+begin
+  require_relative '../lib/sfp_eeprom/cli.rb'
+  SFPEEPROM::CLI.new
+end
